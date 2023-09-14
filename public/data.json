@@ -3,7 +3,7 @@
         "id": 1,
         "course_img": "https://i.ibb.co/MkJ5wTB/c-programming.png",
         "title": "C Programming",
-        "description": "Learn the basics of programming with this introductory course.",
+        "description": "Introductory course covering coding basics, control structures, and problem-solving techniques for beginners in programming.",
         "price": 49.99,
         "credit": 3
     },
@@ -11,7 +11,7 @@
         "id": 2,
         "course_img": "https://i.ibb.co/BfLh1w6/web-development.jpg",
         "title": "Web Development Essentials",
-        "description": "Build a strong foundation in web development.",
+        "description": "Learn HTML, CSS, and JavaScript to build responsive websites in this foundational web development course.",
         "price": 59.99,
         "credit": 4
     },
@@ -19,7 +19,7 @@
         "id": 3,
         "course_img": "https://i.ibb.co/BCh4xMT/data-science.jpg",
         "title": "Data Science for Beginners",
-        "description": "Master the essentials of data science and analytics.",
+        "description": "Master data cleaning, visualization, and statistical analysis for confident data-driven decision-making.",
         "price": 79.99,
         "credit": 5
     },
@@ -27,15 +27,15 @@
         "id": 4,
         "course_img": "https://i.ibb.co/1nZTW9Q/graphic-design.jpg",
         "title": "Graphic Design Basics",
-        "description": "Start your journey into the world of graphic design.",
+        "description": "Explore design principles, color theory, and digital tools to create visually stunning graphics in this beginner's course",
         "price": 69.99,
         "credit": 4
     },
     {
         "id": 5,
         "course_img": "https://i.ibb.co/GcPYCK7/app-deve.png",
-        "title": "Mobile App Development Fundamentals",
-        "description": "Create mobile apps for iOS and Android.",
+        "title": "Mobile App Development ",
+        "description": "Create iOS and Android apps with app design, development, and testing in this comprehensive course.",
         "price": 89.99,
         "credit": 5
     },
@@ -43,7 +43,7 @@
         "id": 6,
         "course_img": "https://i.ibb.co/SstNfF7/digital-marketing.jpg",
         "title": "Digital Marketing Fundamentals",
-        "description": "Learn the latest strategies in digital marketing.",
+        "description": "Master SEO, social media, email marketing, and analytics to succeed in the dynamic world of digital marketing.",
         "price": 99.99,
         "credit": 6
     },
@@ -51,15 +51,15 @@
         "id": 7,
         "course_img": "https://i.ibb.co/GdrwRSP/machine-learning.jpg",
         "title": "Machine Learning Basics",
-        "description": "Get started with the fundamentals of machine learning.",
+        "description": "Start your machine learning journey by understanding algorithms, data preprocessing, and model training.",
         "price": 79.99,
         "credit": 5
     },
     {
         "id": 8,
         "course_img": "https://i.ibb.co/KXNQzGP/photo.webp",
-        "title": "Photography",
-        "description": "Capture stunning photos with this beginner's course.",
+        "title": "Photography Advance Course",
+        "description": "Capture stunning photos by learning camera settings, composition, and editing techniques in this beginner's course.",
         "price": 49.99,
         "credit": 3
     },
@@ -67,7 +67,7 @@
         "id": 9,
         "course_img": "https://i.ibb.co/47Zmshr/business.jpg",
         "title": "Business Ethics and Leadership Skills",
-        "description": "Develop leadership skills and ethical business practices.",
+        "description": "Enhance leadership abilities and ethical decision-making skills for a positive impact in the business world.",
         "price": 59.99,
         "credit": 4
     }
