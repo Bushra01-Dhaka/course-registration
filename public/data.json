@@ -1,15 +1,15 @@
 [
     {
         "id": 1,
-        "course_img": "course1.jpg",
-        "title": "Programming 101",
+        "course_img": "https://i.ibb.co/MkJ5wTB/c-programming.png",
+        "title": "C Programming",
         "description": "Learn the basics of programming with this introductory course.",
         "price": 49.99,
         "credit": 3
     },
     {
         "id": 2,
-        "course_img": "course2.jpg",
+        "course_img": "https://i.ibb.co/BfLh1w6/web-development.jpg",
         "title": "Web Development Essentials",
         "description": "Build a strong foundation in web development.",
         "price": 59.99,
@@ -17,7 +17,7 @@
     },
     {
         "id": 3,
-        "course_img": "course3.jpg",
+        "course_img": "https://i.ibb.co/BCh4xMT/data-science.jpg",
         "title": "Data Science for Beginners",
         "description": "Master the essentials of data science and analytics.",
         "price": 79.99,
@@ -25,7 +25,7 @@
     },
     {
         "id": 4,
-        "course_img": "course4.jpg",
+        "course_img": "https://i.ibb.co/1nZTW9Q/graphic-design.jpg",
         "title": "Graphic Design Basics",
         "description": "Start your journey into the world of graphic design.",
         "price": 69.99,
@@ -33,7 +33,7 @@
     },
     {
         "id": 5,
-        "course_img": "course5.jpg",
+        "course_img": "https://i.ibb.co/GcPYCK7/app-deve.png",
         "title": "Mobile App Development Fundamentals",
         "description": "Create mobile apps for iOS and Android.",
         "price": 89.99,
@@ -41,7 +41,7 @@
     },
     {
         "id": 6,
-        "course_img": "course6.jpg",
+        "course_img": "https://i.ibb.co/SstNfF7/digital-marketing.jpg",
         "title": "Digital Marketing Fundamentals",
         "description": "Learn the latest strategies in digital marketing.",
         "price": 99.99,
@@ -49,7 +49,7 @@
     },
     {
         "id": 7,
-        "course_img": "course7.jpg",
+        "course_img": "https://i.ibb.co/GdrwRSP/machine-learning.jpg",
         "title": "Machine Learning Basics",
         "description": "Get started with the fundamentals of machine learning.",
         "price": 79.99,
@@ -57,15 +57,15 @@
     },
     {
         "id": 8,
-        "course_img": "course8.jpg",
-        "title": "Photography for Beginners",
+        "course_img": "https://i.ibb.co/KXNQzGP/photo.webp",
+        "title": "Photography",
         "description": "Capture stunning photos with this beginner's course.",
         "price": 49.99,
         "credit": 3
     },
     {
         "id": 9,
-        "course_img": "course9.jpg",
+        "course_img": "https://i.ibb.co/47Zmshr/business.jpg",
         "title": "Business Ethics and Leadership Skills",
         "description": "Develop leadership skills and ethical business practices.",
         "price": 59.99,
