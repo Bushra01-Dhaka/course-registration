@@ -3,11 +3,14 @@ import './App.css'
 import Cards from './components/Cards/Cards'
 import Carts from './components/Carts/Carts'
 import Header from './components/Header/Header'
+// toast
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
   const [selectBtn, setSelectBtn] = useState([]);
   const [totalCredit, setTotalCredit] = useState(0);
-  const [totalRemaining, setTotalRemaining] = useState(0);
+  const [totalRemaining , setTotalRemaining] = useState(0);
   const [totalPrice, setTotalPrice] = useState(0);
 
   let total = 20;
@@ -18,12 +21,27 @@ function App() {
     // initial credit
     let credit = select.credit;
     let coursePrice = select.price;
+   
     
 
     if(isExist)  
     {
-      return alert("Already Selected.");
+      // return alert("Already Selected.");
+      // return toast.error("Already Selected");
+      return toast.success(`Already Selected. Check out other courses.`, {
+        position: "top-center",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "colored",
+        });
+      
+      
     }   
+  
     else 
     {
       selectBtn.forEach(item => {
@@ -34,14 +52,37 @@ function App() {
 
       if(credit > total)
       {
-        return alert("Sorry! Your credit limit exceeded.")
+        // return alert("Sorry! Your credit limit exceeded.");
+        // return toast.error("Sorry! Your credit limit exceeded.");
+        return toast.error('Sorry! Your credit limit exceeded.', {
+          position: "top-center",
+          autoClose: 5000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+          theme: "colored",
+          });
       }
       
       setTotalCredit(credit);
       const totalRemaining = total - credit;
-      setTotalRemaining(totalRemaining);
+      if(totalRemaining < 0)
+      {
+        return toast.error("You don't have any remaining credit", {
+          position: "top-center",
+          autoClose: 5000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+          theme: "colored",
+          });
+      }
       setTotalPrice(coursePrice);
-    
+      setTotalRemaining(totalRemaining);
 
      
       const newSelectBtn = [...selectBtn, select];
@@ -66,6 +107,7 @@ function App() {
                      <Carts selectBtn={selectBtn} totalCredit = {totalCredit} totalRemaining = {totalRemaining} totalPrice = {totalPrice} ></Carts>
             </div>
      </div>
+     <ToastContainer />
     </>
   )
 }

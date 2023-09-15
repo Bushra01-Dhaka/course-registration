@@ -7,7 +7,7 @@ const Carts = ({selectBtn, totalRemaining, totalCredit, totalPrice}) => {
         <div className="bg-white p-4">
              <h2 className="text-xl font-bold text-[#2F80ED] pb-2 border-b-2 border-gray">Credit Hour Remaining {totalRemaining} hr</h2>
              <h2 className="text-[#1C1B1B] font-bold text-xl my-2">Course Name</h2>
-            <div className="my-4">
+            <div className="my-4 list-decimal">
               {
                 selectBtn.map(cart => <Cart cart={cart} key={cart.id} ></Cart> )
               }

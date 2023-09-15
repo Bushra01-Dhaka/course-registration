@@ -4,10 +4,8 @@ import PropTypes from 'prop-types';
 const Cart = ({cart}) => {
     const {title} = cart;
     return (
-        <div>
-            <li>{title}</li>
-            
-        </div>
+        <li>{title}</li>
+      
     );
 };
 
