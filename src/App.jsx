@@ -28,7 +28,7 @@ function App() {
     {
       // return alert("Already Selected.");
       // return toast.error("Already Selected");
-      return toast.success(`Already Selected. Check out other courses.`, {
+      return toast.success(`Already Selected. You can check out other courses.`, {
         position: "top-center",
         autoClose: 5000,
         hideProgressBar: false,
@@ -68,19 +68,6 @@ function App() {
       
       setTotalCredit(credit);
       const totalRemaining = total - credit;
-      if(totalRemaining < 0)
-      {
-        return toast.error("You don't have any remaining credit", {
-          position: "top-center",
-          autoClose: 5000,
-          hideProgressBar: false,
-          closeOnClick: true,
-          pauseOnHover: true,
-          draggable: true,
-          progress: undefined,
-          theme: "colored",
-          });
-      }
       setTotalPrice(coursePrice);
       setTotalRemaining(totalRemaining);
 

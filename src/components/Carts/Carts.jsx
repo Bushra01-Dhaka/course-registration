@@ -13,9 +13,9 @@ const Carts = ({selectBtn, totalRemaining, totalCredit, totalPrice}) => {
               }
             </div>
          
-              <h3 className="text-stale-600 font-medium py-2 border-y-2 border-gray">Total Credit Hour : {totalCredit}</h3>
+              <h3 className="text-stale-600 font-medium py-4 border-y-2 border-gray">Total Credit Hour : {totalCredit}</h3>
              
-              <h3 className="text-stale-600 font-medium py-2">Total Price : {totalPrice} USD</h3>
+              <h3 className="text-stale-600 font-medium py-4">Total Price : {totalPrice} USD</h3>
                 
         </div>
     );

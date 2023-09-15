@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 const Cart = ({cart}) => {
     const {title} = cart;
     return (
-        <li>{title}</li>
+        <li className='text-gray-500'>{title}</li>
       
     );
 };
