@@ -1,13 +1,18 @@
+import PropTypes from 'prop-types';
 
 
 const Cart = ({cart}) => {
+    const {title} = cart;
     return (
         <div>
-           
-           <h2 className="text-[#1C1B1B] font-bold text-xl">Course Name{cart.length}</h2>
+            <li>{title}</li>
             
         </div>
     );
 };
+
+Cart.propTypes = {
+    cart: PropTypes.object.isRequired
+}
 
 export default Cart;
