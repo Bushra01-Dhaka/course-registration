@@ -9,8 +9,18 @@ function App() {
 
   const handleSelectBtn = (select) =>
   {
+    const isExist = selectBtn.find(item => item.id == select.id);
+    if(isExist)  
+    {
+      return alert("Already Selected.");
+    }   
+    else 
+    {
       const newSelectBtn = [...selectBtn, select];
       setSelectBtn(newSelectBtn);
+    }
+
+     
   }
 
   console.log("...",selectBtn);
